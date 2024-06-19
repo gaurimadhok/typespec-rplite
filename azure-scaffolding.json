@@ -1,0 +1,104 @@
+{
+  "azure-arm-operations": {
+    "title": "(rest-api-spec repo) Azure Resource Manager Service Project with only Operations Resource Type",
+    "description": "Create a project with operations resource type in rest-api-spec repo, representing an Azure service ARM API",
+    "compilerVersion": "0.45.2",
+    "libraries": [],
+    "skipCompilerPackage": true,
+    "config": {
+      "emit": ["@azure-tools/typespec-autorest"]
+    },
+    "files": [
+      {
+        "path": "package.json",
+        "destination": "package.json",
+        "skipGeneration": true
+      },
+      {
+        "path": "./arm-operations/main.tsp",
+        "destination": "main.tsp"
+      },
+      {
+        "path": "./arm-operations/operation.tsp",
+        "destination": "operation.tsp"
+      },
+      {
+        "path": "./arm-operations/tspconfig.yaml",
+        "destination": "tspconfig.yaml"
+      },
+      {
+        "path": "./arm-operations/examples/2021-10-01-preview/Operations_List.json",
+        "destination": "examples/2021-10-01-preview/Operations_List.json"
+      }
+    ],
+    "inputs": {
+      "ServiceNamespace": {
+        "description": "Please provide ARM Resource Provider Name in Pascal case:",
+        "type": "text",
+        "initialValue": "Microsoft.Contoso"
+      },
+      "APIVersion": {
+        "description": "Please provide API version:",
+        "type": "text",
+        "initialValue": "2021-10-01-preview"
+      }
+    }
+  },
+  "azure-arm-alltypes": {
+    "title": "(rest-api-spec repo) Azure Resource Manager Service Project for RP Lite RPs",
+    "description": "Create a project with locations based, proxy only, tenant, extension, and operations resource types, representing an RP Lite RP",
+    "compilerVersion": "0.45.2",
+    "libraries": [],
+    "skipCompilerPackage": true,
+    "config": {
+      "emit": ["@azure-tools/typespec-autorest"]
+    },
+    "files": [
+      {
+        "path": "package.json",
+        "destination": "package.json",
+        "skipGeneration": true
+      },
+      {
+        "path": "./arm-alltypes/main.tsp",
+        "destination": "main.tsp"
+      },
+      {
+        "path": "./arm-alltypes/locationbasedemployee.tsp",
+        "destination": "locationbasedemployee.tsp"
+      },
+      {
+        "path": "./arm-alltypes/tspconfig.yaml",
+        "destination": "tspconfig.yaml"
+      },
+      {
+        "path": "./arm-alltypes/examples/2021-10-01-preview/Operations_List.json",
+        "destination": "examples/2021-10-01-preview/Operations_List.json"
+      },
+      {
+        "path": "./arm-alltypes/examples/2021-10-01-preview/Employees_Get.json",
+        "destination": "examples/2021-10-01-preview/Employees_Get.json"
+      },
+      {
+        "path": "./arm-alltypes/examples/2021-10-01-preview/Employees_ListByResourceGroup.json",
+        "destination": "examples/2021-10-01-preview/Employees_ListByResourceGroup.json"
+      },
+      {
+        "path": "./arm-alltypes/examples/2021-10-01-preview/Employees_ListBySubscription.json",
+        "destination": "examples/2021-10-01-preview/Employees_ListBySubscription.json"
+      }
+    ],
+    "inputs": {
+      "ServiceNamespace": {
+        "description": "Please provide ARM Resource Provider Name in Pascal case:",
+        "type": "text",
+        "initialValue": "Microsoft.Contoso"
+      },
+      "APIVersion": {
+        "description": "Please provide API version:",
+        "type": "text",
+        "initialValue": "2021-10-01-preview"
+      }
+    }
+  }
+}
