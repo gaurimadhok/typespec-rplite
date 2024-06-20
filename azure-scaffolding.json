@@ -68,6 +68,18 @@
         "destination": "locationbasedemployee.tsp"
       },
       {
+        "path": "./arm-alltypes/proxyemployee.tsp",
+        "destination": "proxyemployee.tsp"
+      },
+      {
+        "path": "./arm-alltypes/tenantproxyemployee.tsp",
+        "destination": "tenantproxyemployee.tsp"
+      },
+      {
+        "path": "./arm-alltypes/extensionemployee.tsp",
+        "destination": "extensionemployee.tsp"
+      },
+      {
         "path": "./arm-alltypes/tspconfig.yaml",
         "destination": "tspconfig.yaml"
       },

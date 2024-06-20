@@ -3,6 +3,10 @@ import "@typespec/versioning";
 import "@azure-tools/typespec-azure-core";
 import "@azure-tools/typespec-azure-resource-manager";
 import "./locationbasedemployee.tsp";
+import "./operation.tsp";
+import "./extensionemployee.tsp";
+import "./proxyemployee.tsp";
+import "./tenantproxyemployee.tsp";
 
 using TypeSpec.Http;
 using TypeSpec.Rest;
@@ -25,19 +29,6 @@ enum Versions {
   @useDependency(Azure.Core.Versions.v1_0_Preview_2)
   @armCommonTypesVersion(Azure.ResourceManager.CommonTypes.Versions.v5)
   `2021-10-01-preview`,
-}
-
-model ExtensionEmployee is ExtensionResource<EmployeeProperties> {
-  ...ResourceNameParameter<ExtensionEmployee>;
-}
-
-model ProxyEmployee is ProxyResource<EmployeeProperties> {
-  ...ResourceNameParameter<ProxyEmployee>;
-}
-
-@tenantResource
-model TenantProxyEmployee is ProxyResource<EmployeeProperties> {
-  ...ResourceNameParameter<TenantProxyEmployee>;
 }
 
 /** Employee properties */
@@ -75,24 +66,4 @@ union ProvisioningState {
   Accepted: "Accepted",
 
   string,
-}
-
-interface Operations extends Azure.ResourceManager.Operations {}
-
-@armResourceOperations
-interface ExtensionEmployees {
-  get is ArmResourceRead<ExtensionEmployee>;
-  list is ArmResourceListByParent<ExtensionEmployee>;
-}
-
-@armResourceOperations
-interface ProxyEmployees {
-  get is ArmResourceRead<ProxyEmployee>;
-  list is ArmResourceListByParent<ProxyEmployee>;
-}
-
-@armResourceOperations
-interface TenantProxyEmployees {
-  get is ArmResourceRead<TenantProxyEmployee>;
-  list is ArmResourceListByParent<TenantProxyEmployee>;
 }
