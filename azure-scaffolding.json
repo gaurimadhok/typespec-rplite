@@ -80,6 +80,10 @@
         "destination": "extensionemployee.tsp"
       },
       {
+        "path": "./arm-alltypes/operation.tsp",
+        "destination": "operation.tsp"
+      },
+      {
         "path": "./arm-alltypes/tspconfig.yaml",
         "destination": "tspconfig.yaml"
       },
