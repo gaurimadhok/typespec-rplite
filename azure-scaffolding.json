@@ -92,16 +92,36 @@
         "destination": "examples/2021-10-01-preview/Operations_List.json"
       },
       {
-        "path": "./arm-alltypes/examples/2021-10-01-preview/Employees_Get.json",
-        "destination": "examples/2021-10-01-preview/Employees_Get.json"
+        "path": "./arm-alltypes/examples/2021-10-01-preview/ProxyEmployees_Get.json",
+        "destination": "examples/2021-10-01-preview/ProxyEmployees_Get.json"
       },
       {
-        "path": "./arm-alltypes/examples/2021-10-01-preview/Employees_ListByResourceGroup.json",
-        "destination": "examples/2021-10-01-preview/Employees_ListByResourceGroup.json"
+        "path": "./arm-alltypes/examples/2021-10-01-preview/ProxyEmployees_List.json", 
+        "destination": "examples/2021-10-01-preview/ProxyEmployees_List.json"
       },
       {
-        "path": "./arm-alltypes/examples/2021-10-01-preview/Employees_ListBySubscription.json",
-        "destination": "examples/2021-10-01-preview/Employees_ListBySubscription.json"
+        "path": "./arm-alltypes/examples/2021-10-01-preview/TenantProxyEmployees_Get.json",
+        "destination": "examples/2021-10-01-preview/TenantProxyEmployees_Get.json"
+      },
+      {
+        "path": "./arm-alltypes/examples/2021-10-01-preview/TenantProxyEmployees_List.json",
+        "destination": "examples/2021-10-01-preview/TenantProxyEmployees_List.json"
+      },
+      {
+        "path": "./arm-alltypes/examples/2021-10-01-preview/LocationBasedEmployees_Get.json",
+        "destination": "examples/2021-10-01-preview/LocationBasedEmployees_Get.json"
+      },
+      {
+        "path": "./arm-alltypes/examples/2021-10-01-preview/LocationBasedEmployees_List.json",
+        "destination": "examples/2021-10-01-preview/LocationBasedEmployees_List.json"
+      },
+      {
+        "path": "./arm-alltypes/examples/2021-10-01-preview/ExtensionEmployees_Get.json",
+        "destination": "examples/2021-10-01-preview/ExtensionEmployees_Get.json"
+      },
+      {
+        "path": "./arm-alltypes/examples/2021-10-01-preview/ExtensionEmployees_List.json",
+        "destination": "examples/2021-10-01-preview/ExtensionEmployees_List.json"
       }
     ],
     "inputs": {

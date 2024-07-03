@@ -9,13 +9,13 @@
       "body": {
         "value": [
           {
-            "name": "ymeow",
+            "name": "SampleName",
             "isDataAction": true,
             "display": {
-              "provider": "qxyznq",
-              "resource": "bqfwkox",
-              "operation": "td",
-              "description": "yvgkhsuwartgxb"
+              "provider": "SampleProvider",
+              "resource": "SampleResource",
+              "operation": "SampleOperation",
+              "description": "SampleDescription"
             },
             "origin": "user",
             "actionType": "Internal"
