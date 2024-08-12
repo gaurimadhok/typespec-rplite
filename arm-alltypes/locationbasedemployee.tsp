@@ -10,14 +10,13 @@ using Azure.ResourceManager;
 
 namespace {{parameters.ServiceNamespace}};
 
-/** Employee resource */
-@parentResource(ArmLocationResource<"ResourceGroup">)
+@parentResource(TenantLocationResource)
 model LocationBasedEmployee is ProxyResource<EmployeeProperties> {
   ...ResourceNameParameter<LocationBasedEmployee>;
 }
 
 @armResourceOperations
-interface LocationBasedEmployees {
+interface LocationBasedEmployee {
   get is ArmResourceRead<LocationBasedEmployee>;
-  list is ArmResourceListByParent<LocationBasedEmployee>;
+  listByLocation is ArmResourceListByParent<LocationBasedEmployee>;
 }

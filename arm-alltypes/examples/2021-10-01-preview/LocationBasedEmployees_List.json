@@ -19,7 +19,7 @@
               "provisioningState": "Succeeded"
             },
             "location": "eastus",
-            "id": "/subscriptions/11809CA1-E126-4017-945E-AA795CD5C5A9/resourceGroups/SampleResourceGroup/providers/Microsoft.Contoso/locations/eastus/locationBasedEmployees/SampleEmployee",
+            "id": "/providers/Microsoft.Contoso/locations/eastus/locationBasedEmployees/SampleEmployee",
             "name": "SampleEmployee",
             "type": "Microsoft.Contoso/locationBasedEmployees",
             "systemData": {
