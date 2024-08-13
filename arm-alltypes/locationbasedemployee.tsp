@@ -16,7 +16,7 @@ model LocationBasedEmployee is ProxyResource<EmployeeProperties> {
 }
 
 @armResourceOperations
-interface LocationBasedEmployee {
+interface LocationBasedEmployees {
   get is ArmResourceRead<LocationBasedEmployee>;
   listByLocation is ArmResourceListByParent<LocationBasedEmployee>;
 }
