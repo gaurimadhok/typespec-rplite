@@ -2,7 +2,7 @@
   "azure-arm-operations": {
     "title": "(rest-api-spec repo) Azure Resource Manager Service Project with only Operations Resource Type",
     "description": "Create a project with operations resource type in rest-api-spec repo, representing an Azure service ARM API",
-    "compilerVersion": "0.45.2",
+    "compilerVersion": "1.0.0-rc.0",
     "libraries": [],
     "skipCompilerPackage": true,
     "config": {
@@ -29,6 +29,10 @@
       {
         "path": "./arm-operations/examples/2021-10-01-preview/Operations_List.json",
         "destination": "examples/2021-10-01-preview/Operations_List.json"
+      },
+      {
+        "path": "./arm-operations/README.md",
+        "destination": "README.md"
       }
     ],
     "inputs": {
@@ -122,6 +126,10 @@
       {
         "path": "./arm-alltypes/examples/2021-10-01-preview/ExtensionEmployees_List.json",
         "destination": "examples/2021-10-01-preview/ExtensionEmployees_List.json"
+      },
+      {
+        "path": "./arm-alltypes/README.md",
+        "destination": "README.md"
       }
     ],
     "inputs": {

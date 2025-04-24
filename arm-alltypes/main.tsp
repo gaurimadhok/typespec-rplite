@@ -16,7 +16,7 @@ using Azure.ResourceManager;
 
 /** {{parameters.ServiceNamespace}} Resource Provider management API. */
 @armProviderNamespace
-@service({
+@service(#{
   title: "{{parameters.ServiceNamespace}} management service",
 })
 @versioned(Versions)
