@@ -25,7 +25,8 @@ For other options on installation see [Installing AutoRest](https://aka.ms/autor
 These are the global settings for the {{parameters.ServiceNamespace}}.
 
 ```yaml
-openapi-type: [[OpenApiType]]
+openapi-type: arm
+openapi-subtype: rpaas
 tag: package-{{parameters.APIVersion}}
 ```
 
@@ -37,5 +38,3 @@ These settings apply only when `--tag=package-{{parameters.APIVersion}}` is spec
 input-file:
   - {{parameters.ServiceNamespace}}/[[ReleaseState]]/{{parameters.APIVersion}}/{{parameters.ServiceNamespace}}.json
 ```
-
----
