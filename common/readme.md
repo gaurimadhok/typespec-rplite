@@ -36,5 +36,5 @@ These settings apply only when `--tag=package-{{parameters.APIVersion}}` is spec
 
 ```yaml $(tag) == 'package-{{parameters.APIVersion}}'
 input-file:
-  - {{parameters.ServiceNamespace}}/[[ReleaseState]]/{{parameters.APIVersion}}/{{parameters.ServiceNamespace}}.json
+  - {{parameters.ServiceNamespace}}/[[ReleaseState]]/{{parameters.APIVersion}}/{{#normalizePackageName}}{{parameters.ServiceNamespace}}{{/normalizePackageName}}.json
 ```
