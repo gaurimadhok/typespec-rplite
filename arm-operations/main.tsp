@@ -25,5 +25,5 @@ enum Versions {
   @useDependency(Azure.ResourceManager.Versions.v1_0_Preview_1)
   @useDependency(Azure.Core.Versions.v1_0_Preview_2)
   @armCommonTypesVersion(Azure.ResourceManager.CommonTypes.Versions.v5)
-  v[[VersionWithUnderscoresInsteadOfDashes]]: "{{parameters.APIVersion}}",
+  v2021_10_01_preview: "{{parameters.APIVersion}}",
 }

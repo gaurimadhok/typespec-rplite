@@ -28,7 +28,7 @@
       },
       {
         "path": "./arm-operations/examples/2021-10-01-preview/Operations_List.json",
-        "destination": "examples/{{parameters.APIVersion}}/Operations_List.json"
+        "destination": "examples/2021-10-01-preview/Operations_List.json"
       },
       {
         "path": "./common/readme.md",
@@ -93,39 +93,39 @@
       },
       {
         "path": "./arm-alltypes/examples/2021-10-01-preview/Operations_List.json",
-        "destination": "examples/{{parameters.APIVersion}}/Operations_List.json"
+        "destination": "examples/2021-10-01-preview/Operations_List.json"
       },
       {
         "path": "./arm-alltypes/examples/2021-10-01-preview/ProxyEmployees_Get.json",
-        "destination": "examples/{{parameters.APIVersion}}/ProxyEmployees_Get.json"
+        "destination": "examples/2021-10-01-preview/ProxyEmployees_Get.json"
       },
       {
         "path": "./arm-alltypes/examples/2021-10-01-preview/ProxyEmployees_List.json", 
-        "destination": "examples/{{parameters.APIVersion}}/ProxyEmployees_List.json"
+        "destination": "examples/2021-10-01-preview/ProxyEmployees_List.json"
       },
       {
         "path": "./arm-alltypes/examples/2021-10-01-preview/TenantProxyEmployees_Get.json",
-        "destination": "examples/{{parameters.APIVersion}}/TenantProxyEmployees_Get.json"
+        "destination": "examples/2021-10-01-preview/TenantProxyEmployees_Get.json"
       },
       {
         "path": "./arm-alltypes/examples/2021-10-01-preview/TenantProxyEmployees_List.json",
-        "destination": "examples/{{parameters.APIVersion}}/TenantProxyEmployees_List.json"
+        "destination": "examples/2021-10-01-preview/TenantProxyEmployees_List.json"
       },
       {
         "path": "./arm-alltypes/examples/2021-10-01-preview/LocationBasedEmployees_Get.json",
-        "destination": "examples/{{parameters.APIVersion}}/LocationBasedEmployees_Get.json"
+        "destination": "examples/2021-10-01-preview/LocationBasedEmployees_Get.json"
       },
       {
         "path": "./arm-alltypes/examples/2021-10-01-preview/LocationBasedEmployees_List.json",
-        "destination": "examples/{{parameters.APIVersion}}/LocationBasedEmployees_List.json"
+        "destination": "examples/2021-10-01-preview/LocationBasedEmployees_List.json"
       },
       {
         "path": "./arm-alltypes/examples/2021-10-01-preview/ExtensionEmployees_Get.json",
-        "destination": "examples/{{parameters.APIVersion}}/ExtensionEmployees_Get.json"
+        "destination": "examples/2021-10-01-preview/ExtensionEmployees_Get.json"
       },
       {
         "path": "./arm-alltypes/examples/2021-10-01-preview/ExtensionEmployees_List.json",
-        "destination": "examples/{{parameters.APIVersion}}/ExtensionEmployees_List.json"
+        "destination": "examples/2021-10-01-preview/ExtensionEmployees_List.json"
       },
       {
         "path": "./common/readme.md",
