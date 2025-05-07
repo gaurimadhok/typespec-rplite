@@ -1,7 +1,7 @@
 {
   "azure-arm-operations": {
     "title": "(rest-api-spec repo) Azure Resource Manager Service Project with only Operations Resource Type",
-    "description": "Create a project with operations resource type in rest-api-spec repo, representing an Azure service ARM API",
+    "description": "Create a project with only operations resource type in rest-api-spec repo, representing an Azure service ARM API",
     "compilerVersion": "1.0.0-rc.0",
     "libraries": [],
     "skipCompilerPackage": true,
@@ -23,7 +23,7 @@
         "destination": "operation.tsp"
       },
       {
-        "path": "./arm-operations/tspconfig.yaml",
+        "path": "./common/tspconfig.yaml",
         "destination": "tspconfig.yaml"
       },
       {
@@ -31,8 +31,8 @@
         "destination": "examples/2021-10-01-preview/Operations_List.json"
       },
       {
-        "path": "./arm-operations/README.md",
-        "destination": "README.md"
+        "path": "./common/readme.md",
+        "destination": "../resource-manager/readme.md"
       }
     ],
     "inputs": {
@@ -51,7 +51,7 @@
   "azure-arm-alltypes": {
     "title": "(rest-api-spec repo) Azure Resource Manager Service Project for RP Lite RPs",
     "description": "Create a project with locations based, proxy only, tenant, extension, and operations resource types, representing an RP Lite RP",
-    "compilerVersion": "0.45.2",
+    "compilerVersion": "1.0.0-rc.0",
     "libraries": [],
     "skipCompilerPackage": true,
     "config": {
@@ -88,7 +88,7 @@
         "destination": "operation.tsp"
       },
       {
-        "path": "./arm-alltypes/tspconfig.yaml",
+        "path": "./common/tspconfig.yaml",
         "destination": "tspconfig.yaml"
       },
       {
@@ -128,8 +128,8 @@
         "destination": "examples/2021-10-01-preview/ExtensionEmployees_List.json"
       },
       {
-        "path": "./arm-alltypes/README.md",
-        "destination": "README.md"
+        "path": "./common/readme.md",
+        "destination": "../resource-manager/readme.md"
       }
     ],
     "inputs": {
